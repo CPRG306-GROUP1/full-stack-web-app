@@ -51,7 +51,6 @@ export default function Home() {
           <li>✓ Responsive design for all devices</li>
           <li>✓ Real-time data validation</li>
         </ul>
-      </div>
     </div>
   )
 }
