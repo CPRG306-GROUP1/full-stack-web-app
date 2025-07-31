@@ -86,7 +86,7 @@ const MovieCard = ({ item, onMovieDeleted, onMovieUpdated }) => {
   };
 
   return (
-    <div className="bg-blue-950 text-gray-200 p-6 mb-4 rounded-xl">
+    <div className="bg-blue-950 text-gray-200 p-6 mb-4 rounded-xl  min-w-xl">
       <div className="mb-4">
         <h1 className="text-2xl font-semibold">{item.title}</h1>
         <p>Release Year: {item.releaseYear}</p>
